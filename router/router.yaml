@@ -11,6 +11,15 @@ sandbox:
 homepage:
   enabled: false
   
+preview_persisted_queries:
+  enabled: true
+  safelist: 
+    enabled: true
+    require_id: false
+apq:
+  enabled: false
+
+  
 limits:
   max_depth: 5
   max_height: 20
